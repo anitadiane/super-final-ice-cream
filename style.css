@@ -37,6 +37,7 @@
 .body1 h1 {
   color: #1a8a8a;
   text-shadow: 2px 2px white;
+  text-decoration: none;
 }
 
 .body2 {
@@ -55,6 +56,10 @@
   text-shadow: 2px 3px white;
   grid-column: 1;
   grid-row: 1;
+}
+.body2 a:link {
+  text-decoration: none;
+  color: #1a8a8a;
 }
 .body2 li {
   color: #1a8a8a;
@@ -130,6 +135,38 @@ footer {
 .contact textarea {
   text-align: center;
   padding: 50px;
+}
+
+.blue img {
+  border: 8px solid #1a8a8a;
+  margin: 30px;
+}
+.blue h1 {
+  color: #1a8a8a;
+}
+
+.chocolate img {
+  border: 8px solid #1a8a8a;
+  margin: 30px;
+}
+.chocolate h1 {
+  color: #1a8a8a;
+}
+
+.trio img {
+  border: 8px solid #1a8a8a;
+  margin: 30px;
+}
+.trio h1 {
+  color: #1a8a8a;
+}
+
+.vanilla img {
+  border: 8px solid #1a8a8a;
+  margin: 30px;
+}
+.vanilla h1 {
+  color: #1a8a8a;
 }
 
 /*# sourceMappingURL=style.css.map */
